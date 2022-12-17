@@ -1,0 +1,25 @@
+body{
+    width: 100%;
+}
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(34, 128, 235);
+}
+table{
+    width: fit-content;
+    border-style: groove;
+    border-radius: 6px;
+    
+
+}
+th{
+    border-style: groove;
+    border-radius: 6px;
+    
+}
+td{
+    padding: 8px;
+    border-style: groove;
+    border-radius: 6px;
+}
