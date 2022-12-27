@@ -1,8 +1,40 @@
-.search-container button {
-    float: none;
-    display: block;
-    text-align: left;
-    width: 100%;
-    margin: 0;
-    padding: 14px;
-  }
+.col-4{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  text-align: center;
+  margin-top: 30px;
+  
+}
+.logo{
+  margin-bottom: 20px;
+
+}
+span{
+  color:black;
+  font-size:large;
+  
+}
+.nav-item{
+  border-right: 1px solid black;
+}
+.color-b, a, h2{
+  color: black;
+}
+.wid{
+  width: 120px;
+}
+.font-f{
+  font-family:'IBM Plex Serif', serif;
+
+}
+.navbar-dark{
+  padding: 6px;
+  /* background: linear-gradient(to right, #1f89ba , #5ecdde); */
+  font-weight: bold;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+.red{
+  color: red;
+}
+ 
