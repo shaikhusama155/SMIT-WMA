@@ -37,4 +37,13 @@ span{
 .red{
   color: red;
 }
- 
+.wd2{
+  width: 400px;
+}
+.wd3{
+  width: auto;
+}
+.bodr{
+  border-radius: 9px;
+  border: 1px solid orange;
+}
