@@ -13,10 +13,15 @@ body{
 .img-slide{
     text-align: center;
     flex-wrap:nowrap;
+    margin: 0px;
 }
 
 .imgw{
     width: 95px;
+    height: 68px;
+}
+.ex-edit{
+  width: 180px;
 }
 .imgw:hover {
     /* Start the shake animation and make the animation last for 0.5 seconds */
@@ -33,16 +38,17 @@ body{
 
  /* Place the navbar at the bottom of the page, and make it stick */
 .navbar {
-  background-color: rgb(247, 245, 245);
+  background-color: white;
   padding: 3px;
   flex-wrap: nowrap;
   position:relative;
   bottom: 0;
-  width: 100%;
   align-content: center;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
   margin-bottom: 20px;
+  width: 100%;
+  border-radius: 20px;
   
   
   
@@ -55,67 +61,77 @@ body{
   display: block;
   color: #302d2d;
   text-align: center;
-  padding: 3px 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-decoration: none;
   font-size: 20px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-  
 }
 
 /* Change the color of links on hover */
-.navbar .sky:hover {
-  background-color: skyblue ;
+a:hover {
+  background-color: rgb(71, 187, 233) ;
   color: rgb(238, 237, 237);
-  border-radius: 9px;
+  border-radius: 20px;
+  
 }
-.red:hover {
+.red{
+  padding-bottom: 40px;
+}
+ /*.red:hover {
   background-color: rgb(189, 7, 7) ;
   color: rgb(238, 237, 237);
-  border-radius: 9px;
+  
+  
 }
 .blue:hover {
   background-color: rgb(28, 9, 196) ;
   color: rgb(238, 237, 237);
-  border-radius: 9px;
+  
 }
 .pink:hover {
   background-color: rgb(240, 136, 159) ;
   color: rgb(238, 237, 237);
-  border-radius: 9px;
+  
 }
 .orange:hover {
   background-color: rgb(212, 72, 7) ;
   color: rgb(238, 237, 237);
-  border-radius: 9px;
   font-weight: bold;
 }
 .purple:hover {
   background-color: rgb(211, 16, 136) ;
   color: rgb(238, 237, 237);
-  border-radius: 9px;
+  
 }
 .yellow:hover {
   background-color: rgb(226, 247, 39) ;
   color: rgb(238, 237, 237);
-  border-radius: 9px;
-}
+
+} */
 
 /* Add a green background color to the active link */
 .navbar a.active {
   background-color: #04AA6D;
   color: rgb(35, 80, 202);
+
 }
 
 /* Hide the link that should open and close the navbar on small screens */
 .navbar .icon {
   display: none;
 }
-.one-of:hover{
-  opacity: 1;
-   top: 0px; 
-   left: 0px; 
-   transform: matrix(1, 0, 0, 1, 0, 0);
 
+.one-of:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+  animation-iteration-count:initial;
+  
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
 }
 .widh{
   width: 700px;
@@ -131,7 +147,9 @@ body{
 .first-img{
   width: 100%;
 }
-p{
+p, h2{
+  text-align: center;
+  color: beige;
   font-size: x-large;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -166,7 +184,7 @@ p{
   background-color: rgb(12, 12, 138);
   
 }
-.sec-p{
+.sec-p, .p-sev{
   text-align: center;
   background-color: blue;
   color: beige;
@@ -177,6 +195,7 @@ p{
 
 .center{
   justify-content: center;
+  
 }
 .wid-th{
   width: 322px;
@@ -213,6 +232,7 @@ p{
 }
 .marg{
   margin: 10px;
+  
 }
 
 
@@ -227,6 +247,8 @@ p{
   position: relative;
   width: 50%;
   min-width: 400PX;
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 /* Hide the images by default */
@@ -306,4 +328,113 @@ p{
 .active,
 .demo:hover {
   opacity: 1;
+}
+.p-six{
+  background-color: #222;
+}
+.p-eight{
+  background-color: brown;
+}
+.p-nine{
+  background-color: rgb(250, 127, 26);
+}
+.top{
+  margin-top: 2px;
+}
+.p-ela{
+  background-color: lightslategray;
+}
+.p-add{
+  background-color: forestgreen;
+  border-radius: 9px;
+}
+.p-color1{
+  background-color: aqua;
+  border-radius: 9px;
+}
+.p-color2{
+  background-color: lawngreen;
+}
+.one-of{
+  border-radius: 9px;
+}
+.ex-mar{
+  margin-top: 100px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 50%;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border-radius: 50%;
+}
+.fa-youtube{
+  background-color: red;
+  color: aliceblue;
+  border-radius: 50%;
+}
+.fa-pinterest{
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+}
+.fa-instagram{
+  background-color: rgb(219, 10, 80);
+  color: yellow;
+  border-radius: 50%;
+}
+.b-b-colr{
+  background-color: rgb(38, 36, 41);
+  }
+.warp{
+  display: block;
+  flex-wrap: nowrap;
+  text-align: center;
+  justify-items: center; 
+  padding: 50px;
+  background-color: rgb(38, 36, 41);
+  width:350px ;
+  color: rgb(83, 83, 72);
+  position:relative;
+ text-align: center;
+ 
+    
+}
+li:hover{
+  color: #f2f2f2;
+}
+.siz-ex{
+  color: antiquewhite;
+  display: block;
+  width: 100%;
+  
+}
+li{
+  list-style-type: square;
+}
+.chan-ex{
+  justify-content: center;
+  padding: 50px;
+  min-width: 400px;
 }
