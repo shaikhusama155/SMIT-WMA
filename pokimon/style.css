@@ -2,8 +2,8 @@
     margin: 0%;
     padding: 0%;
 }
-.body{
-  background-image: url(/image/bg-img.jpg);
+body{
+   background-image: url(/image/pattern-background-vector_53876-136510.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -34,7 +34,6 @@
  /* Place the navbar at the bottom of the page, and make it stick */
 .navbar {
   background-color: rgb(247, 245, 245);
-  overflow: hidden;
   padding: 3px;
   flex-wrap: nowrap;
   position:relative;
@@ -44,6 +43,10 @@
   border-top: 2px solid black;
   border-bottom: 2px solid black;
   margin-bottom: 20px;
+  
+  
+  
+  
 }
 
 /* Style the links inside the navigation bar */
@@ -107,24 +110,26 @@
 .navbar .icon {
   display: none;
 }
+.one-of:hover{
+  opacity: 1;
+   top: 0px; 
+   left: 0px; 
+   transform: matrix(1, 0, 0, 1, 0, 0);
 
+}
 .widh{
   width: 700px;
   padding-top: 4px;
+  border-radius: 9px;
 
 }
 .desc{
-  background-color: #4e4242;
+  background-color: #cc1b1b;
   color: aliceblue;
   text-align: center;
 }
 .first-img{
   width: 100%;
-}
-.widh:hover{
-  border: 1px solid rgb(7, 2, 2);
-  background-color: #f82323;
-  
 }
 p{
   font-size: x-large;
@@ -158,8 +163,13 @@ p{
   margin-top: 20px;
   text-align: center;
   color: beige;
-  background-color: blue;
+  background-color: rgb(12, 12, 138);
   
+}
+.sec-p{
+  text-align: center;
+  background-color: blue;
+  color: beige;
 }
 .n-wid{
   width: 350px;
@@ -167,4 +177,133 @@ p{
 
 .center{
   justify-content: center;
+}
+.wid-th{
+  width: 322px;
+  border-radius: 9px;
+}
+.p-th{
+  background-color: blueviolet;
+  width: 100%;
+  color: beige;
+  text-align: center;
+}
+.wid-for{
+  width: 322px;
+  border-radius: 9px;
+  
+}
+.p-for{
+  background-color: rgb(38, 36, 41);
+  width:300px ;
+  color: beige;
+  text-align: center;
+}
+.wid-fif{
+  width: 322px;
+  border-radius: 9px;
+  
+}
+.p-fif{
+  background-color: rgb(20, 166, 202);
+  width: 275px;
+  color: beige;
+  text-align: center;
+  line-height: 31px;
+}
+.marg{
+  margin: 10px;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.wid-set{
+  justify-items: center;
+  position: relative;
+  width: 50%;
+  min-width: 400PX;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display:none;
+  
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
 }
