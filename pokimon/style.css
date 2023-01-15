@@ -40,7 +40,7 @@ body{
 .navbar {
   background-color: white;
   padding: 3px;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   position:relative;
   bottom: 0;
   align-content: center;
@@ -49,6 +49,7 @@ body{
   margin-bottom: 20px;
   width: 100%;
   border-radius: 20px;
+  overflow: hidden;
   
   
   
@@ -78,37 +79,6 @@ a:hover {
 .red{
   padding-bottom: 40px;
 }
- /*.red:hover {
-  background-color: rgb(189, 7, 7) ;
-  color: rgb(238, 237, 237);
-  
-  
-}
-.blue:hover {
-  background-color: rgb(28, 9, 196) ;
-  color: rgb(238, 237, 237);
-  
-}
-.pink:hover {
-  background-color: rgb(240, 136, 159) ;
-  color: rgb(238, 237, 237);
-  
-}
-.orange:hover {
-  background-color: rgb(212, 72, 7) ;
-  color: rgb(238, 237, 237);
-  font-weight: bold;
-}
-.purple:hover {
-  background-color: rgb(211, 16, 136) ;
-  color: rgb(238, 237, 237);
-  
-}
-.yellow:hover {
-  background-color: rgb(226, 247, 39) ;
-  color: rgb(238, 237, 237);
-
-} */
 
 /* Add a green background color to the active link */
 .navbar a.active {
@@ -146,6 +116,7 @@ a:hover {
 }
 .first-img{
   width: 100%;
+  border-radius: 9px;
 }
 p, h2{
   text-align: center;
@@ -155,6 +126,7 @@ p, h2{
 }
 .sec-img{
   width: 100%;
+  
 }
 /* .sec-col:hover{
   border: 1px solid rgb(7, 2, 2);
@@ -165,17 +137,20 @@ p, h2{
   display:inline;
 }
 .first-path{
-  width: 340px;
+  width: 322px;
+  
 }
 .ex-widh{
   width: 300px;
   margin: 2px;
   margin-right: 10px;
+  justify-content: center;
 
 }
 .im-wid{
   width: 150px;
   height: 150PX;
+ 
 }
 .fix{
   margin-top: 20px;
@@ -190,9 +165,11 @@ p, h2{
   color: beige;
 }
 .n-wid{
-  width: 350px;
+  width: 300px;
 }
-
+.im-thd{
+  width: 100%;
+}
 .center{
   justify-content: center;
   
@@ -246,7 +223,7 @@ p, h2{
   justify-items: center;
   position: relative;
   width: 50%;
-  min-width: 400PX;
+  min-width: 300PX;
   margin-bottom: 100px;
   margin-top: 100px;
 }
@@ -269,7 +246,7 @@ p, h2{
   position: absolute;
   top: 40%;
   width: auto;
-  padding: 16px;
+  padding: 10px;
   margin-top: -50px;
   color: white;
   font-weight: bold;
@@ -304,7 +281,7 @@ p, h2{
 .caption-container {
   text-align: center;
   background-color: #222;
-  padding: 2px 16px;
+  padding: 2px 12px;
   color: white;
 }
 
@@ -435,6 +412,5 @@ li{
 }
 .chan-ex{
   justify-content: center;
-  padding: 50px;
-  min-width: 400px;
+   min-width: 300px;
 }
