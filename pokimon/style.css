@@ -106,6 +106,8 @@ p, h2{
   text-align: center;
   color: beige;
   background-color: rgb(12, 12, 138);
+  min-width: 80px;
+  justify-content: center;
   
   
 }
@@ -124,15 +126,17 @@ p, h2{
   justify-content: center;
 }
 .im-thd{
-  width: 70%;
+  width: 100%;
 }
 .center{
   justify-content: center;
   
 }
 .wid-th{
-  width: 300px;
+  width: 250px;
   border-radius: 9px;
+  min-width: 250px;
+  justify-content: center;
 }
 .p-th{
   background-color: blueviolet;
@@ -143,22 +147,28 @@ p, h2{
 .wid-for{
   width: 322px;
   border-radius: 9px;
+  min-width: 250px;
   
+}
+.im-for, .im-fif{
+  width: 100%;
 }
 .p-for{
   background-color: rgb(38, 36, 41);
-  width:300px ;
+  width:100% ;
   color: beige;
   text-align: center;
 }
 .wid-fif{
   width: 322px;
   border-radius: 9px;
+  min-width: 250px;
+  justify-content: center;
   
 }
 .p-fif{
   background-color: rgb(20, 166, 202);
-  width: 275px;
+  width: 100%;
   color: beige;
   text-align: center;
   line-height: 31px;
@@ -179,11 +189,25 @@ p, h2{
   justify-items: center;
   position: relative;
   width: 50%;
-  min-width: 300PX;
+  min-width: 250PX;
   margin-bottom: 100px;
   margin-top: 100px;
 }
-
+.p-sev{
+  width: 100%;
+}
+.wid-ela{
+  width: 250px;
+  border-radius: 9px;
+  min-width: 250px;
+}
+.im-ela, .p-ela{
+  width: 100%;
+}
+.wid-12{
+  width: 250px;
+  min-width: 250px;
+}
 /* Hide the images by default */
 .mySlides {
   display:none;
@@ -286,6 +310,7 @@ p, h2{
   border-radius: 9px;
 }
 .p-color2{
+  border-radius: 9px;
   background-color: lawngreen;
 }
 .one-of{
