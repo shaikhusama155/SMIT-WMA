@@ -345,35 +345,34 @@ p, h2{
 .fa-facebook {
   background: #3B5998;
   color: white;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 
 /* Twitter */
 .fa-twitter {
   background: #55ACEE;
   color: white;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 .fa-youtube{
   background-color: red;
   color: aliceblue;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 .fa-pinterest{
   background-color: red;
   color: white;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 .fa-instagram{
   background-color: rgb(219, 10, 80);
   color: yellow;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 .b-b-colr{
   background-color: rgb(38, 36, 41);
-  width: 250px;
-  min-width: 250px;
   justify-content: center;
+  border-radius: 12px;
   }
 .warp{
   display: block;
@@ -391,7 +390,7 @@ p, h2{
     
 }
 li:hover{
-  color: #f2f2f2;
+  color: #cc1b1b;
 }
 .siz-ex{
   color: antiquewhite;
@@ -400,11 +399,12 @@ li:hover{
   
 }
 li{
-  list-style-type: square;
+  list-style-type: none;
+  color: aliceblue;
 }
 .chan-ex{
-  align-self: center;
-   min-width: 200px;
+  justify-content: center;
+   min-width: 100px;
 }
 /* Add a black background color to the top navigation */
 .topnav {
@@ -471,4 +471,7 @@ li{
     display: block;
     text-align: left;
   }
+}
+.last-wid{
+  width: 80%;
 }
